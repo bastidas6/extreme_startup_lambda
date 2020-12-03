@@ -13,6 +13,7 @@ public class ResponderModel {
 
         Matcher sumMatcher = Pattern.compile(".*what is the sum of (\\d+) and (\\d+)").matcher(question);
         if (sumMatcher.matches()) {
+
             return String.valueOf(Integer.parseInt(sumMatcher.group(1)) + Integer.parseInt(sumMatcher.group(2)));
         }
         
