@@ -16,7 +16,8 @@ public class ResponderModel {
 
             return String.valueOf(Integer.parseInt(sumMatcher.group(1)) + Integer.parseInt(sumMatcher.group(2)));
         }
-        
+
+
         return teamName;
     }
 
