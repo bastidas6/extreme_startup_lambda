@@ -12,7 +12,7 @@ public class ResponderModelTest {
     public void cuandoLaPreguntaEsVaciaDebeRetornarElNombreDelEquipo(){
         String question = "";
         String response = responder.answer(question);
-        assertThat(response).isEqualTo("devco");
+        assertThat(response).isEqualTo("Manuel");
     }
 
     @Test
@@ -21,8 +21,6 @@ public class ResponderModelTest {
         String response = responder.answer(question);
         assertThat(response).isEqualTo("4");
     }
-
-    @Test
 
 
 }
