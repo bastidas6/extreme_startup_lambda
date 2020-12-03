@@ -17,7 +17,7 @@ public class ResponderModelTest {
 
     @Test
     public void cuandoSumo2Y2Retorna4 (){
-        String question = "56373347 What is 2 plus 2";
+        String question = "56373347 what is 2 plus 2";
         String response = responder.answer(question);
         assertThat(response).isEqualTo("4");
     }
